@@ -8,8 +8,8 @@ function downloadFile(url) {
     document.body.removeChild(a);
 }
 
-// test 8
+
 
 function download_database() {
-    downloadFile("Database - 02.02.24.kdbx")
+    downloadFile("Database")
 }
