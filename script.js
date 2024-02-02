@@ -10,7 +10,6 @@ function downloadFile(url) {
 
 
 
-
 function download_database() {
     downloadFile("Database - 02.02.24.kdbx")
 }
