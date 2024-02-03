@@ -10,6 +10,7 @@ function downloadFile(url) {
 
 
 
+
 function download_database() {
     downloadFile("Database.kdbx")
 }
