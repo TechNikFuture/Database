@@ -2,7 +2,7 @@
 
 body {
   font-family: 'Laila';
-  background-color: #e6dedc;
+  background-color: #222222;
   font-size: 90%;
 
   height: 100vh;
@@ -10,34 +10,64 @@ body {
 
 
 .parent {
+/*  display:flex;
+  justify-content:center;
+  align-items: center;
+*/
+display: grid;
+grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+grid-gap: 10px;
+
+
+}
+
+
+
+
+.group_div {
   display: grid;
   justify-content: center;
   text-align: center;
+
+  border-radius: 0.7rem;
+  background: rgba(53, 53, 53, 0.5);
+
+  margin: 20px;
+
 }
 
+
+.div_title {
+  font-family: 'Laila';
+  color: rgb(230, 230, 230);
+  font-size: 23px;
+  text-decoration: underline;
+  margin-top: 15px;
+  margin-bottom: 30px;
+
+}
 
 .download_button {
   
     font-family: 'Laila';
-    color: rgb(0, 0, 0);
-    background-color: #e2e1de;
-    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.35);
-    padding: 20px;
+    color: rgb(230, 230, 230);
+    padding: 15px;
     text-align: center;
     border: none;
-    font-size: 30px;
+    font-size: 20px;
     cursor: pointer;
-
-
+    text-decoration:  none;
+    
+    
     max-width: 700px;
-    margin-bottom: 30px;
-    margin-left: 40px;
-    margin-right: 40px;
-  
+    margin: 25px;
+    margin-top: 5px;
 
-    border-radius: 1rem;
-    background: rgba(255, 255, 255, 0.4);
-    box-shadow: 0 0px 15px 0 rgb(114, 114, 114);
+    
+    
+    border-radius: 0.7rem;
+    background: rgba(100, 100, 100, 0.5);
+    box-shadow: 1.5px 1.5px 5px 0 rgb(130, 130, 130);
     backdrop-filter: blur(8px) saturate(100%);
     -webkit-backdrop-filter: blur(8px) saturate(100%);
   
