@@ -43,3 +43,7 @@ function download_file_3() {
 function download_file_4() {
     downloadFile(`https://niklas-dateien.netlify.app/Total Uninstall Ultimate 6.14.0.rar`)
 }
+
+function download_file_5() {
+    downloadFile(`https://niklas-dateien.netlify.app/Laila.zip`)
+}
