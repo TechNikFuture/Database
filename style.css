@@ -49,6 +49,15 @@ margin-right: 100px;
   }
 }
 
+@media (max-width: 600px)  {
+  .parent {
+    grid-template-columns:  1fr;
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
 
 
 
