@@ -45,5 +45,9 @@ function download_file_4() {
 }
 
 function download_file_5() {
+    downloadFile(`https://niklas-dateien.netlify.app/Windows Programme löschen (ThioJoe).rar`)
+}
+
+function download_file_6() {
     downloadFile(`https://niklas-dateien.netlify.app/Laila.zip`)
 }
