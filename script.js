@@ -13,7 +13,7 @@ function downloadFile(url) {
 
 
 function download_database() {
-    downloadFile("Database.kdbx")
+    downloadFile(`https://niklas-database-file.netlify.app/Database.kdbx`)
 }
 
 
