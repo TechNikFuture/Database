@@ -43,5 +43,5 @@ function download_file_5() {
 }
 
 function download_file_6() {
-    downloadFile(`https://niklas-dateien.netlify.app/Laila.zip`)
+    downloadFile(`https://niklas-dateien.netlify.app/Laila - Verbessert 2.1.zip`)
 }
