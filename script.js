@@ -12,13 +12,6 @@ function downloadFile(url) {
 
 
 
-function download_database() {
-    downloadFile(`https://niklas-database-file.netlify.app/Database.kdbx`)
-}
-
-
-
-
 
 function copy_bookmarks() {
     navigator.clipboard.writeText(browser_bookmarks);
