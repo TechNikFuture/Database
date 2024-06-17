@@ -45,3 +45,7 @@ function download_file_5() {
 function download_file_6() {
     downloadFile(`https://niklas-dateien.netlify.app/Laila - Verbessert 2.1.zip`)
 }
+
+function download_file_7() {
+    downloadFile(`https://niklas-dateien.netlify.app/Ins BIOS neustarten.lnk`)
+}
