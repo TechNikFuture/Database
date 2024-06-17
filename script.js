@@ -47,5 +47,5 @@ function download_file_6() {
 }
 
 function download_file_7() {
-    downloadFile(`https://niklas-dateien.netlify.app/Ins BIOS neustarten.lnk`)
+    downloadFile(`https://niklas-dateien.netlify.app/Ins BIOS neustarten.lnk.lnk`)
 }
