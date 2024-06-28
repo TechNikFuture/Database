@@ -10,7 +10,7 @@ function downloadFile(url) {
 
 
 
-
+ 
 
 
 function copy_bookmarks() {
@@ -48,8 +48,4 @@ function download_file_6() {
 
 function download_file_7() {
     downloadFile(`https://niklas-dateien.netlify.app/Ins BIOS neustarten.lnk.lnk`)
-}
-
-function download_file_8() {
-    downloadFile(`https://niklas-dateien.netlify.app/Basti Hilfe Paket.rar`)
 }
